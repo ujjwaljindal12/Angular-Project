@@ -45,22 +45,22 @@ OnDestroy {
     console.log('ngOnInit called!');
   }
 
-  ngDocheck() {
-    content.log('ngDoCheck called!');
+  ngDoCheck() {
+    console.log('ngDoCheck called!');
   }
 
   ngAfterContentInit() {
-    content.log('ngAfterContentInit called!');
+    console.log('ngAfterContentInit called!');
   }
 
   ngAfterContentChecked() {
-      content.log('ngAfterContentChecked called!');
+      console.log('ngAfterContentChecked called!');
     }
   ngAfterViewInit() {
-        content.log('ngAfterViewInit called!');
+        console.log('ngAfterViewInit called!');
     }
   ngAfterViewChecked() {
-          content.log('ngAfterViewChecked called!');
+          console.log('ngAfterViewChecked called!');
     }
   ngOnDestroy() {
     console.log('ngOnDestroy called!');
